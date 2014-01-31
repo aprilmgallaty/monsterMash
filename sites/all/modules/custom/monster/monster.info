@@ -1,0 +1,6 @@
+name = Monster Profile
+description = Adds like and dislike to status updates, friends list to profile
+package = Monster Mash
+core = 7.x 
+version = 7.x-1.0
+files[] = monster.module

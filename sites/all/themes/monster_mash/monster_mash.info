@@ -1,0 +1,16 @@
+name = Monster Mash
+description = A social network for monsters
+core = 7.x
+screenshot = screenshot.png
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/font/stylesheet.css
+stylesheets[all][] = css/styles.css
+
+;scripts[] = js/sample.js
+
+regions[header] = Header
+regions[content] = Content
+regions[sidebar_left] = Sidebar left
+regions[footer] = Footer
+regions[highlighted] = Highlighted

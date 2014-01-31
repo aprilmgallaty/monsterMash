@@ -1,0 +1,316 @@
+/* background */
+body{
+  /* fallback */
+  background-color: #9bafc2;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#d5ebff), to(#8c9dae));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #d5ebff, #8c9dae);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #d5ebff, #8c9dae);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #d5ebff, #8c9dae);
+}
+
+/*basic styles */
+h1{font-family: 'kaiju_monster__gregular', Tahoma, Geneva, sans-serif; font-size: 60px; font-weight: bold; color: #000;}
+h2{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 40px; font-weight: bold; color: #454444;}
+h3{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 30px; font-weight: bold; color: #454444;}
+p{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 18px;color: #000;}
+li{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 18px;color: #000;}
+a{text-decoration: none;}
+
+/*form styles*/
+form label{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 18px;color: #000;}
+.form-submit{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 18px;color: #000;}
+.fieldset-legend{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 18px;color: #000;}
+.fieldset-title{font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif; font-size: 18px;color: #000;}
+
+/* special */
+.clear{clear: both; margin: 0; padding: 0;}
+.special{font-weight: bold; color: #fd0202;}
+.readMore{float: right;}
+
+/*styles */
+#page-wrapper{
+    width: 1024px;
+    margin: 0 auto;
+    background-image: url("../img/backgroundTop1024x509.png");
+    background-repeat: no-repeat;
+    min-height: 509px;
+}
+
+#header h1, #header h2, #header h1 a, #header h2 a{color: #fff;}
+
+#header h1{padding: 0 0 0 25px;}
+
+#header h2{padding: 25px 0 25px 25px;}
+/* left */
+#leftSide{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 100px 24px 0 0;
+}
+
+#block-user-login{
+	margin-top: 165px;
+}
+
+.avatarHolder{
+    width: 130px;
+    margin-left: 25px;
+    float: left;
+}
+
+.avatar img{
+    border: solid 5px #000;
+	background-color: #fff;
+	float: right;
+	max-width: 130px;
+	max-height: 190px;
+}
+
+.settings{
+}
+
+.information{
+    width: 210px;
+    float: left;
+    margin-left: 15px;
+}
+
+.information a{
+    font-weight: bold;
+    color: #fff;
+}
+
+.feedAuthor, .information a.username{
+    font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase; 
+}
+
+.feedTitle{
+    font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+
+.information h5{
+    font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* status form */
+
+#updateStatusTitle{
+	margin-top: 25px;
+}
+
+.formHeader h2{
+  font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+  font-size:30px;
+  font-weight: bold;
+  color:#fd0202;
+  padding: 25px 0 0 15px;
+}
+
+.status textarea{
+  margin: 15px 0 0 15px;
+  height: 100px;
+  width: 320px;
+}
+
+.submit-button{
+  margin: 15px 10px 15px 15px;
+  font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+  font-size:30px;
+  font-weight: bold;
+  color:#fd0202;
+  float: right;
+}
+
+#pageSort{
+	width: 400px;
+}
+
+#pageSort h3{
+    float: right;
+	clear: both;
+}
+
+#pageSort a{
+    color: #fff;
+}
+
+#pageSort a:hover{
+    color: #fd0202;
+}
+
+#pageSort a:active{
+    color: #fd0202;
+}
+
+
+#pageSort h3 img{
+    margin: 20px 10px 0 20px;
+    float: right;
+}
+
+#block-system-user-menu{
+    width: 130px;
+}
+
+#block-system-user-menu .content ul li.leaf{
+	list-style-image: none;
+	list-style-type: none;
+}
+
+/* mainSectionHome */
+
+#mainSectionHome{
+  width: 450px;
+  height: auto;
+  float: left;
+  margin: 100px 0 0 50px;
+}
+
+.posting{
+    margin-bottom: 60px;
+}
+
+.feedAvatar, .commentAvatar{
+    width: 60px;
+    height: 88px;
+    border: solid 5px #000;
+}
+
+.feedAvatar img, .commentAvatar img{
+    width: 60px;
+    height: 88px;
+    background-color: #fff;
+}
+
+.feedInfo{
+	float: right;
+	width: 360px;
+	margin-left: 15px;
+}
+
+.comment{
+	margin-bottom: 25px;
+}
+
+.commentAvatar{
+	/* Other properties found with .feedAvatar */
+	float: left;
+	margin-right: 15px;
+}
+
+.commentAvatar img{
+	/* Other properties found with .feedAvatar img */
+}
+
+.commentInfo{
+}
+
+.commentLinkSpace{
+	height: 6px;
+}
+
+.node-status-update .content{
+	font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+.monsterLikes{
+    float: left;
+    padding-right: 10px;
+}
+
+.monsterHates{
+    float: left;
+    padding-right: 10px;
+}
+
+.comments{
+    float: left;
+    padding: 6px 0 0 10px;
+}
+
+.numberStyle{
+    font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fd0202;
+}
+
+#footer{
+    clear: both;
+    background-image: url("../img/backgroundBottom1024x265.png");
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 265px;
+    margin: 0 auto;
+}
+
+#block-system-powered-by{
+	font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #000;
+	float: right;
+}
+
+#credits{
+	float: right;
+}
+
+/* User profile view */
+
+.profile{
+	text-align: center;
+}
+
+.profile .user-picture{
+	float: none;
+}
+
+.profile .user-picture img{
+    border: solid 5px #000;
+	background-color: #fff;
+}
+
+.profile .field-label, .profile .field-items, .profile .field-item{
+	display: inline;
+}
+
+.profile .field-label, .profile .field-item{
+	font-family: 'horrorscribblesmedium', Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+
+.profile .field{
+	margin-bottom: 18px;
+}
+
+/* User profile edit */
+#user-profile-form .user-picture{
+    border: solid 5px #000;
+	background-color: #fff;
+	float: left;
+	margin-right: 15px;
+}
+
+#user-profile-form #edit-account{
+	clear: both;
+}
